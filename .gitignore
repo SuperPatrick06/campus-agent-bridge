@@ -1,0 +1,10 @@
+# Runtime state — holds your gateway URL, API key and generated Codex config.
+# NEVER remove this line before publishing.
+local/
+
+# Logs and debug dumps may contain request metadata.
+*.log
+dump-*.json
+
+node_modules/
+.env

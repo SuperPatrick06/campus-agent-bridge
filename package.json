@@ -1,0 +1,23 @@
+{
+  "name": "campus-agent-bridge",
+  "version": "0.1.0",
+  "description": "Bring full agent capabilities (tools, shell, files) to an OpenAI-compatible campus/corporate AI gateway that was only designed for chat. Local filtering proxy for OpenAI Codex.",
+  "license": "MIT",
+  "bin": {
+    "gab": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "node test/run.js",
+    "start": "node proxy.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "openai-codex",
+    "proxy",
+    "llm-gateway",
+    "agent",
+    "tool-calling"
+  ]
+}

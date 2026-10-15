@@ -1,0 +1,6 @@
+campus-agent-bridge
+Copyright (c) 2026 campus-agent-bridge contributors
+
+This product includes model catalog data in template/models.tpl.json derived
+from the OpenAI Codex project (https://github.com/openai/codex), licensed
+under the Apache License, Version 2.0.

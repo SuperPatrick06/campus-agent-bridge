@@ -1,0 +1,5 @@
+#!/bin/sh
+# codex-campus — one-command entry: guided setup on first run, then Codex
+# through the local filtering proxy (isolated CODEX_HOME; your main config
+# and any other keys are never touched).
+exec node "$(dirname "$0")/bin/cli.js" codex "$@"
